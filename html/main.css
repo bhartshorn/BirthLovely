@@ -6,85 +6,9 @@ body {
     
 }
 
-div#banner {
-    margin: 0;
-    padding: 1em 0em 0em 1em;
-    border: 0;
-    width: 100%;
-}
-
 img#logo {
     width: 15em;
     height: auto;
     padding: 0;
     margin: 0;
-}
-
-ul#nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #81416C;
-    font-family: sans-serif;
-    overflow: hidden;
-    position: relative;
-    left: 15em;
-    top: -2.2em;
-    width: 65%;
-    border-radius: .5em;
-}
-
-ul#nav a {
-    text-decoration: none;
-    display: block;
-    color: white;
-    padding: .2em 1em;
-    font-size: 1.5em;
-}
-
-ul#nav a:hover {
-    background-color: #A04F85;
-}
-
-ul#nav li {
-    float: left;
-    border-right: 2px solid #753F63;
-    background-color: #81416C;
-    height: 100%;
-}
-
-ul#nav li:last-child {
-    border-right: none;
-    border-left: 2px solid #753F63;
-    float: right;
-}
-
-ul#nav li#active {
-    background-color: darkgrey;
-}
-
-
-a {
-    color: #FBBC7E;
-}
-
-input, textarea {
-    margin: 1em 0;
-    width: 100%;
-}
-
-img.vertical_center {
-    vertical-align: middle;
-}
-
-@media screen and (max-width: 550px) {
-    ul#nav li {
-        float: none;
-        border: none;
-        border-top: 2px solid #A03021;
-    }
-    ul#nav li:last-child {
-        float:none;
-        border-bottom: 2px solid #A03021;
-    }
 }
