@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css" /> 
+        <link rel="stylesheet" href="css/w3.css" />
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+        <title>Birth Lovely</title>
+    </head>
+    <body>
+        <div class="w3-top w3-left-align" style="background-color:  #A04F85; "><p>&nbsp;</p></div>
+        <!-- Navbar -->
+        <ul class="w3-navbar w3-purple w3-card-2 w3-top w3-left-align w3-large" style="overflow: visible; margin-top: 18px;">
+            <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+                <a class="w3-padding-large w3-hover-white w3-large w3-purple" href="javascript:void(0);" onclick="showSideNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            </li>
+            <li style=""><a href="#" class="w3-padding-large w3-white"><img src="images/logo-bl-small.svg" style="height:75px; width: auto; overflow: visible; position: absolute; top: -13px; left: 5px; z-index: 100;" /><span style="padding-left: 63px;">Home</span></a></li>
+            <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white">Services</a></li>
+            <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white">About</a></li>
+            <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white">Resources</a></li>
+            <li class="w3-hide-small w3-right"><a href="#" class="w3-padding-large w3-hover-white"><i class="fa fa-comment"></i> Contact</a></li>
+        </ul>
+
+        <!-- Navbar on small screens -->
+        <div id="sideNav" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:69px">
+            <ul class="w3-navbar w3-left-align w3-large w3-purple">
+                <li><a class="w3-padding-large w3-hover-white" href="#">Services</a></li>
+                <li><a class="w3-padding-large w3-hover-white" href="#">About</a></li>
+                <li><a class="w3-padding-large w3-hover-white" href="#">Resources</a></li>
+                <li><a class="w3-padding-large w3-hover-white" href="#">Link 4</a></li>
+            </ul>
+        </div>
+
+        <div class="w3-container w3-center w3-text-white" style="padding-top: 86px; padding-bottom: 12px; background-color: #A04F85">
+            <img id="logo" src="images/Circle%20Logo.svg" alt="Logo" />
+            <h1 class="w3-margin">Birth Doula and Midwife Services</h1>
+        </div>
+
+        <div class="w3-container">
+            <h3>Who are we?</h3>
+            <p><em>Hartshorn Oil</em> is a family owned business in the small & scenic Teton Valley. Our state of the art fuel storage facility allows us to offer you the best prices. We sell the highest quality fuels and lubricants.</p>
+            <p>As of now, the only other page on this site that is functional is the Contact page, linked to above.</p>
+            <p>
+                Voluptas eos quo sed dolores id dolore qui. Debitis qui laboriosam nobis ipsa numquam. Alias ipsa labore dolores et odit ab. Impedit rerum minima architecto dolore facilis eos sed adipisci. Sed voluptatum aliquid mollitia laudantium quia.
+            </p>
+            Officiis sed quia nisi accusantium voluptatem officia et officiis. Aut in dolor occaecati et perspiciatis unde et nostrum. Ratione non consequatur eum quis cum culpa odit. Aliquam qui dicta minima sint. Autem non officia aut voluptate aut qui veritatis aut.
+            <p>
+                Id molestiae consequatur laudantium placeat sed dolore dignissimos. Nihil accusantium similique sed dicta quis. Dolore facilis vel rerum odio veritatis officia possimus. Praesentium labore ea dolores eos.
+            </p
+            <p>
+                Explicabo harum et quia laborum ullam. Laboriosam voluptatem sequi est sapiente ut tenetur molestias. Et et eos nesciunt occaecati aperiam et reiciendis autem.
+            </p>
+            <p>
+                Omnis dolores illo ea veritatis consequatur maxime tenetur. Qui aut debitis ea nostrum natus. Omnis voluptas sint quos ullam et at quo dolores. Et est natus nihil ut rerum consequatur quis maxime.
+            </p>
+            <footer style="margin-top: 20px;">
+                <p><a href="../index.html">&#10096; CS213 Assignments Page</a></p>
+            </footer>
+        </div>
+
+        <script>
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function showSideNav() {
+                var x = document.getElementById("sideNav");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+    </body>
+</html>
